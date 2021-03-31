@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ProjectsOverviewPage extends BasePage{
 
+    //using FindBy library
     @FindBy(id = "navigation-dashboard")
     WebElement dashboardLink;
 
