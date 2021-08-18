@@ -16,12 +16,12 @@ public class SignInTestRailTest extends BaseTest{
     @Test
     public void validTestRailLogin() throws InterruptedException {
 
-        String baseUrl = "https://simplrcodechallenge.testrail.io/";
+        String baseUrl = "https://codechallenge.testrail.io/";
         String projectName = "Sample Project 2";
 
         //Create Extent report
         ExtentReports report = createExtentReport();
-        ExtentTest test = report.createTest("Simplr Code Challenge - TestRail");
+        ExtentTest test = report.createTest("Code Challenge - TestRail");
 
         LoginTestRailPage loginPage = new LoginTestRailPage(driver);
         driver.get(baseUrl);
